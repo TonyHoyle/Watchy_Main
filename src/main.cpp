@@ -1,13 +1,12 @@
-#include "Watchy_7_SEG.h"
+#include "Watchy_Multi.h"
 #include "settings.h"
 
-Watchy7SEG watchy(settings);
+WatchyMulti face(settings);
 
 void setup(){
-  watchy.init();
+    face.init();    
 }
 
-void loop(){}
-
+void loop() {}
 
 
